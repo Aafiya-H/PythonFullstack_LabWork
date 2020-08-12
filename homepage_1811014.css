@@ -1,10 +1,21 @@
 .background_gradient{
 /*	background:#7eede4;*/
-	background-image:linear-gradient(#7eede4, #e9f5f4);
-	background-repeat: no-repeat;
-	background-attachment: fixed;  
-	background-size: cover;
+	background:#120942;	
+}
 
+.container_of_page {
+/*	  width:100%;*/
+      margin:0 auto;
+      padding:10px 25px;
+      border:1px solid #120942;
+      border-radius: 25px;
+      background-image:linear-gradient(#7eede4, #e9f5f4);
+      background-repeat: no-repeat;
+	background-attachment: fixed;  
+	background-size: cover; }
+
+#subheading{
+	font-size: 120%;
 }
 
 .center_align
@@ -33,7 +44,32 @@
 	width: 80%; background-color: #120861;
 }
 
+.ml {
+	width: 65%; background-color: #120861;
+}
+
+
 .skills {
   text-align: right;
   color: #ffffff; 
 }
+
+.tools{
+	color: 	#707070;
+}
+
+a.download {
+  background-color: #056f99;
+  color: white;
+  padding: 10px;
+  text-align: center;
+/*  text-decoration: none;
+  display: inline-block;*/
+  border:1px solid #056f99;
+  border-radius: 25px;
+}
+
+a.download:hover {
+  opacity: 0.7;
+}
+
