@@ -1,0 +1,39 @@
+.background_gradient{
+/*	background:#7eede4;*/
+	background-image:linear-gradient(#7eede4, #e9f5f4);
+	background-repeat: no-repeat;
+	background-attachment: fixed;  
+	background-size: cover;
+
+}
+
+.center_align
+{
+	text-align: center;
+}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.python {
+	width: 85%; background-color: #120861;
+}
+
+.java {
+	width: 80%; background-color: #120861;
+}
+
+.html {
+	width: 85%; background-color: #120861;
+}
+
+.css {
+	width: 80%; background-color: #120861;
+}
+
+.skills {
+  text-align: right;
+  color: #ffffff; 
+}
