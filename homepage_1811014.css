@@ -1,11 +1,10 @@
 .background_border{
-/*	background:#7eede4;*/
+
 	background:#120942;	
 }
 
 .container_of_page {
-/*	  width:100%;*/
-      margin:0 auto;
+      margin:0 20%;
       padding:20px 35px;
       border:1px solid #120942;
       border-radius: 25px;
@@ -14,14 +13,14 @@
 	background-attachment: fixed;  
 	background-size: cover; }
 
-#subheading{
+/*#subheading{
 	font-size: 120%;
 }
 
 .center_align
 {
 	text-align: center;
-}
+}*/
 
 .container {
   width: 100%;
