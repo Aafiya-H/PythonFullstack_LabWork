@@ -3,6 +3,10 @@
 	background:#120942;	
 }
 
+#name{
+  font-family: 'Lato', sans-serif;
+}
+
 .container_of_page {
       margin:0 20%;
       padding:20px 35px;
