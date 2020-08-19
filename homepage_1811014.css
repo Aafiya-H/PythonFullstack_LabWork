@@ -7,7 +7,11 @@
   font-family: 'Lato', sans-serif;
 }
 
-.container_of_page {
+td{
+  pad:5px;
+}
+
+#container_of_page {
       margin:0 20%;
       padding:20px 35px;
       border:1px solid #120942;
@@ -25,6 +29,19 @@
 {
 	text-align: center;
 }*/
+
+
+/*.pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+*/
+
+.img {
+    max-width:100%;
+    height:auto;
+}
 
 .container_mine {
   width: 100%;
