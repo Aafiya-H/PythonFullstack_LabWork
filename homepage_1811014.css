@@ -142,3 +142,32 @@ a.nav-font-inactive:visited{
 .project-txt{
   color: #ffffff;
 }
+
+.shadow-style{
+  box-shadow: 10px 10px #363636;
+}
+
+.glow {
+  /* width: 700px;
+  margin: 0 auto;
+  min-height: 300px; */
+  margin: 25px;
+  opacity: 0.8;
+  border: 10px solid #eee;
+  
+  /*Transition*/
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  
+ }
+  
+ 
+ .glow:hover {  
+    opacity: 1;
+  
+    /*Glow*/
+   -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+   -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+   box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+ }  
