@@ -22,23 +22,6 @@ td{
       background-size: cover;
  }
 
-/*#subheading{
-	font-size: 120%;
-}
-
-.center_align
-{
-	text-align: center;
-}*/
-
-
-/*.pic {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-*/
-
 @keyframes fadeInAnimation { 
     0% { 
         opacity: 0; 
@@ -53,11 +36,6 @@ body{
   animation-iteration-count: 1; 
   animation-fill-mode: forwards;
 }
-
-/* .img {
-    max-width:100%;
-    height:auto;
-} */
 
 .container_mine {
   width: 100%;
@@ -148,9 +126,6 @@ a.nav-font-inactive:visited{
 }
 
 .glow {
-  /* width: 700px;
-  margin: 0 auto;
-  min-height: 300px; */
   margin: 25px;
   opacity: 0.8;
   border: 10px solid #eee;
@@ -162,12 +137,67 @@ a.nav-font-inactive:visited{
   
  }
   
- 
- .glow:hover {  
-    opacity: 1;
-  
+.glow:hover {  
+    opacity: 1;  
     /*Glow*/
    -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
    -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
    box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
- }  
+}  
+
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+.course-slide {
+  text-align: center;
+  display: none;
+  padding: 80px;
+}
+
+.prev, .next {
+  cursor: pointer;
+  top: 50%;
+  width: auto;
+  position: absolute;
+  margin-top: -30px;
+  padding: 16px;
+  color: rgb(5, 5, 5);
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #181717;
+}
